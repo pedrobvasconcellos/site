@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/carroussel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/script.js"></script>
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="projetos.html" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="links.html" class="nav-link">Links</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menu()"><img class="icon" src="img/menu_hamb_fechado.png" alt="Menu" height="40px" width="40px"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="projetos.html" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="links.html" class="nav-link">Links</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <div>
+            <div class="carousel-container">
+              <div class="carousel">
+                <div class="carousel-slide active">
+                  <a href="#"><img src="img/banner1.png" alt="Imagem 1"></a>
+                </div>
+      
+                <div class="carousel-slide">
+                  <a href="#"><img src="img/banner1.png" alt="Imagem 2"></a>
+                </div>
+              </div>
+      
+              <button class="carousel-button prev">&#10094;</button>
+              <button class="carousel-button next">&#10095;</button>
+      
+              <div class="carousel-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+              </div>
+            </div>
+      
+            <script src="js/carroussel.js"></script>
+            
+          </div>
+        <br><br>
+        <div class="content">
+            <h1>Bem vindo ao meu site</h1>
+            <p>Aqui você encontrará Informações sobre mim e meus projetos</p>
+            <br><br>
+            <h2>Tecnológias que foram utilizadas na criação do site</h2>
+            <br>
+            <img src="img/html.png" alt="">
+            <img src="img/css.png" alt="">
+            <img src="img/js.png" alt="">
+        </div>
+
+        <br><br>
+        <h3>Atribuições</h3>
+        <br>
+        <a href="https://www.flaticon.com/br/icones-gratis/html" title="html ícones">Html ícones criados por Freepik - Flaticon</a>
+        <br>
+        <a href="https://www.flaticon.com/br/icones-gratis/css" title="css ícones">Css ícones criados por Pixel perfect - Flaticon</a>
+        <br>
+        <a href="https://www.flaticon.com/br/icones-gratis/javascript" title="javascript ícones">Javascript ícones criados por Freepik - Flaticon</a>
+        <br><br>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Contato</h1>
+                <p>Entre em contato</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/pedro_v4zconcellos_/" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100010881995986&locale=pt_BR" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pedro-vasconcellos-77353016b/" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer_copyright">
+            &#169
+            2024 Pedro Henrique Bueno Vasconcellos
+        </div>
+    </footer>
+</body>
+</html>
